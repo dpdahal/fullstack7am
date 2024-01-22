@@ -22,3 +22,7 @@
 ## HTML Form
 * Introduction,Attributes
 * Input Types
+## More HTML Elements
+* Picture
+## Canvas
+* Pending
