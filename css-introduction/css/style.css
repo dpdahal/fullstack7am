@@ -1,0 +1,30 @@
+/*
+h1,h2,h3,p{
+    color:black;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 40px;
+}
+
+p{
+    color:blue;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#demo{
+    color:red;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.itn{
+    color: #004d2f;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+*/
+
+.container p{
+    color: red;
+}
