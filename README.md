@@ -47,3 +47,10 @@
 * Pseudo-Classes: a:hover
 * Pseudo-Elements: p::first-line
 * Combinators: div p
+## CSS position
+* Static
+* Relative
+* Absolute
+* Fixed
+* Sticky
+
