@@ -1,10 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background: #f5f2f2;
+    /*background: #f5f2f2;*/
 }
 .container{
-    width: 90%;
+    width: 1280px;
     min-height: 400px;
     background: white;
     margin: auto;
@@ -60,7 +60,7 @@ body{
 .banner{
     width: 100%;
     height: 450px;
-    background: linear-gradient(248deg, rgba(197, 90, 154, 0.53) 35.39%, rgba(70, 52, 181, 0.53) 55.6%);
+    background: linear-gradient(180deg, #FFF 4.44%, #30618E 100%, rgba(48, 97, 142, 0.00) 100%);
     display: flex;
     justify-content: space-between;
 }
@@ -68,11 +68,48 @@ body{
 .banner-left{
     width: 48%;
     height: 100%;
-    /*background: red;*/
+    display: flex;
+    color: white;
+}
+
+.left-text-box{
+    width: 90%;
+    margin: auto;
+}
+
+.left-text-box h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.left-text-box h1 span{
+   color: red;
+    font-family: fantasy;
+}
+.left-text-box p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.join-btn{
+    width: 50%;
+    background: red;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.join-btn:hover{
+    background:darkred;
 }
 .banner-right{
     width: 48%;
     height: 100%;
     /*background: green;*/
+    display: flex;
+    justify-content: flex-end;
 }
 
