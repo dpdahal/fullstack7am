@@ -403,27 +403,72 @@ main {
 .category-course-section {
     width: 100%;
     min-height: 300px;
-    background: red;
     display: grid;
     grid-gap: 10px;
 
     .category-course-title {
         grid-column-start: 1;
-        grid-column-end: 4;
-        background: green;
+        grid-column-end: 12;
+        h1{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        p{
+        
+            font-family: sans-serif;
+            color: rgb(121, 120, 120);
+        }
     }
 
 
     .category-left-section {
-        background: yellow;
-        min-height: 300px;
+        background: white;
+        height: 700px;
         grid-column-start: 1;
+        grid-column-end: 3;
+        box-shadow: 0 0 20px 0px rgb(92, 89, 89);
+        border-radius: 5px;
+
+        .c-title-box{
+            width: 100%;
+            border-bottom: 1px solid rgb(192, 189, 189);
+          
+            h2{
+                margin: 0;
+                padding: 8px 20px;
+                font-size: 16px;
+            }
+           
+        }
+
+        .show-list{
+            width: 100%;
+
+            a{
+                text-decoration: none;
+                color: rgb(103, 99, 99);
+            }
+
+            ul{
+               margin: 0;
+               padding: 0;
+               list-style: none;
+               li{
+                     padding: 10px 20px;
+                     font-size: 14px;
+                     cursor: pointer;
+                     font-weight: bold;
+                
+               }
+            }
+        }
+       
     }
 
     .category-right-section {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        background: blue;
+        grid-column-start: 3;
+        grid-column-end: 12;
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -431,9 +476,59 @@ main {
        
 
         .c-course-box{
+            background: rgb(230, 227, 227);
+            border-radius: 10px;
             width: 100%;
-            height: 300px;
-            background: purple;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+
+            .top-course-box-section{
+                height: 171px;
+                
+            }
+
+            :hover{
+                box-shadow: 0 0 20px 0px rgb(92, 89, 89);
+            }
+
+            .course-image-section{
+                width: 100%;
+                height: 150px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px 5px 0 0;
+                }
+            }
+            .course-logo{
+                background: white;
+                border-radius: 8px;
+                width: 92%;
+                height: 60px;
+                position: absolute;
+                top: 110px;
+                left: 10px;
+                right: 10px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+
+            .course-body-section{
+                width: 100%;
+                height: 120px;
+            }
+            .course-footer-section{
+                width: 100%;
+                height: 60px;
+
+            }
         }
 
     }
